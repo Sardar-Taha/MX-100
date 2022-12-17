@@ -4,15 +4,19 @@
     font-family: 'Inter', sans-serif;
 }
 
-.navbar-expand-lg  {
+html,body{
+    overflow-x: hidden;
+}
+
+/* .navbar-expand-lg  {
     display: block;
     margin-right: auto;
     margin-left: auto;
-}
+} */
 
-.me-auto {
+/* .me-auto {
     margin: auto !important;
-}
+} */
 
 .nav-link {
     position: relative;
@@ -60,6 +64,7 @@
 
 .navbar {
     background: #323d3d !important;
+    margin: auto;
 }
 
 .part2 {
