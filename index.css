@@ -8,11 +8,6 @@ html,body{
     overflow-x: hidden;
 }
 
-.navbar-expand-lg {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-  }
 
 @media (max-width: 991.98px) {
     .navbar-nav {
@@ -66,7 +61,11 @@ html,body{
 
 .navbar {
     background: #323d3d !important;
-  
+
+}
+
+.me-auto {
+      margin: auto;
 }
 
 .part2 {
@@ -255,7 +254,7 @@ span-4 {
     margin-left: 40px;
 }
 
-h2 {
+h2  {
     color: #169A16;
     font-size: 55px !important;
     font-weight: 500  !important ;
