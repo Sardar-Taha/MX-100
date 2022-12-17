@@ -8,15 +8,17 @@ html,body{
     overflow-x: hidden;
 }
 
-/* .navbar-expand-lg  {
+.navbar-expand-lg {
     display: block;
     margin-right: auto;
     margin-left: auto;
-} */
+  }
 
-/* .me-auto {
-    margin: auto !important;
-} */
+@media (max-width: 991.98px) {
+    .navbar-nav {
+      align-items: center;
+    }
+  }
 
 .nav-link {
     position: relative;
@@ -64,7 +66,7 @@ html,body{
 
 .navbar {
     background: #323d3d !important;
-    margin: auto;
+  
 }
 
 .part2 {
