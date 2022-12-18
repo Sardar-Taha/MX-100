@@ -63,17 +63,19 @@ html,body{
       margin: auto;
 }
 
-.part2 {
-    overflow: hidden !important;
-    
+.part-2 {
+   overflow: hidden !important;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
 
 video {
     width: 100vw;
-    height: 100vh;
+    height: 100vw;
     object-fit: cover;
     pointer-events: none;
-    margin-top: -100px !important;
+    margin-top: -50px !important;
 }
 
 video::-webkit-media-controls-panel {
@@ -1101,6 +1103,20 @@ span-7:hover {
     .card-tex {
         width: 100% !important;
     }
+
+    .navbar-toggler {
+        border-color: gray !important;
+    }
+
+    .navbar-toggler-icon {
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: middle;
+        background-image: url(/img/download.svg) !important;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
 }
 
 
@@ -1282,6 +1298,16 @@ span-7:hover {
 
 @media only screen and (max-width:759px) {
 
+    video {
+        height: 100% !important;
+        margin-top: 60px !important;
+        margin-bottom: 125px !important;
+    }
+
+    .b-back {
+        border-radius: 1px !important;
+    }
+
     .img-2 {
         margin-left: 30px;
     }
@@ -1298,6 +1324,7 @@ span-7:hover {
     }
 
     .card-tex {
+
         width: 100% !important;
     }
 
