@@ -9,11 +9,6 @@ html,body{
 }
 
 
-@media (max-width: 991.98px) {
-    .navbar-nav {
-      align-items: center;
-    }
-  }
 
 .nav-link {
     position: relative;
@@ -163,14 +158,19 @@ h1::after {
 .para {
     text-align: center !important;
     width: 60%;
-margin: auto;
+    margin: auto;
 }
 
 .para-2 {
-    color: white;
-    font-size: 16px;
+    letter-spacing: 0.003em;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px !important;
+    line-height: 30px;
     text-align: center;
-    margin-top: 20px ;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .b-color {
@@ -209,7 +209,7 @@ span-4 {
 
 .card {
     width: 25% !important;
-    min-height: 460px!important;
+    height: 460px !important;
     background: linear-gradient(105.42deg, rgba(255, 255, 255, 0.11) -3.07%, rgba(255, 255, 255, 0.11) 49.04%, rgba(255, 255, 255, 0) 97.84%) !important; 
     filter: drop-shadow(rgba(0, 0, 0, 0.25) 0px 4px 6px) !important; 
     margin-left: 40px;
@@ -224,13 +224,13 @@ span-4 {
 .card-title {
     color: #f2f2f2;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .card-text {
     color: #f2f2f2;
     text-align: start ; 
-    font-weight: 500;
+    font-weight: 400;
     width: 105% !important;
 }
 
@@ -364,7 +364,7 @@ h3::after {
     padding: 25px;
 }
 
-.card-2:hover{
+.card-2:hover {
     margin-top: -50px !important;
 }
 .card-tit {
@@ -491,7 +491,7 @@ h4::after {
     background-image: url(/img/ticket-1.png);
     background-size: 100% 350px;
     background-repeat: no-repeat;
-    width: 25%;
+    width: 330px !important;
     margin-top: 3rem;
     height: 350px;
 }
@@ -632,6 +632,7 @@ h4::after {
 
 .swiper {
     width: 80%;
+    margin-bottom: 50px;
   }
 
   .swiper-slide {
@@ -689,6 +690,7 @@ h4::after {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
   }
 
 .swipper-img {
@@ -969,3 +971,529 @@ span-7:hover {
     color: #169A16;
 }
 
+@media only screen and (max-width:1278px) { 
+    .b-back {
+        width: 70% !important;
+    }
+
+}
+
+@media only screen and (max-width:1233px) {
+
+    .para {
+        width: 70%;
+    }
+ 
+     .b-color {
+         width: 70% !important;
+     }
+ 
+     .card-text {
+         width: 99% !important;
+     }
+ 
+     .svg-img-2 {
+         margin-right: 18px !important;
+     }
+
+    .b-back {
+        width: 80% !important;
+    }
+
+    .buttn-2 {
+        margin-top: 3.6999999999999993rem !important;
+    }
+
+    .t-text-1 {
+        padding-bottom: 1rem !important;
+    }
+
+    .ticket-1 {
+        width: 25.9% !important;
+    }
+}
+
+
+@media only screen and (max-width:1180px) {
+    .b-back {
+        width: 80% !important;
+    }
+
+    .b-color {
+        width: 76% !important;
+    }
+
+    .card-text {
+        width: 99% !important;
+    }
+
+    .svg-img-2 {
+        margin-right: 18px !important;
+    }
+
+    .inner-t-1 {
+        font-size: 14px !important;
+    }
+}
+
+
+
+@media only screen and (max-width:1122px) {
+    .p4 {
+        display: none !important;
+    }
+
+    .p8 {
+        display: none !important;
+    }
+
+    .par-2 {
+        margin-left: 0px !important;
+    }
+
+    .para-4 {
+        width: 75% !important;
+        line-height: 30px;
+        font-size: 18px !important;
+    }
+}
+
+@media only screen and (max-width:1078px) {
+
+    .para {
+        width: 75% !important;
+    }
+
+    .b-color {
+        width: 78% !important;
+    }
+
+    .para-4 {
+        width: 75% !important;
+        line-height: 25px !important;
+        font-size: 17px !important;
+    }
+
+    .svg-img-2 {
+        margin-right: 0px !important;
+    }
+
+    
+    .card {
+    width: 27% !important; 
+}
+
+     .buttn-2 {
+    margin-top: 1.6999999999999993rem !important;
+}
+}
+
+@media only screen and (max-width:996px) { 
+    .b-back {
+        width: 90% !important;
+    }
+
+    .card-tex-2 {
+        margin-left: 0px !important;
+       width: 100% !important;
+    }
+
+    .card-tex {
+        width: 100% !important;
+    }
+}
+
+
+@media only screen and (max-width:985px) { 
+
+    .car {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .card {
+        width: 40% !important;
+        margin-bottom: 40px;
+        margin-left: 0px !important;
+        height: 430px !important;
+    }
+
+    
+    h1 {
+        width: 60% !important;
+    }
+
+    .left-2{
+        margin-left: 0px !important;
+    }
+    .svg-img {
+        display: none !important;
+    }
+
+    .prt-5 {
+        display: flex !important;
+        flex-direction: column !important ;
+        justify-content: center !important;
+        align-items: center !important;
+        
+    }
+
+    .left-2 {
+        text-align: center;
+    }
+
+    .para-4 {
+        width: 50% !important;
+        text-align: center !important;
+        display: block !important;
+        margin-left: auto !important ;
+        margin-right: auto !important;
+        line-height: 30px !important;
+    }
+
+    .svg-img-2 {
+        width: 250px !important;
+        margin-right: -57px !important;
+    }
+
+    h2 {
+        padding-top: 3rem !important;
+    }
+
+    .navbar-brand {
+        display: none !important;
+    }
+
+     .nav-item {
+        display: block !important;
+        margin-left: auto !important ;
+        margin-right: auto !important;
+     } 
+
+     .car-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+
+     .card-2 {
+        height: fit-content;
+        margin-bottom: 40px !important;
+     }
+
+     .card-2:hover {
+        margin-top: 0px !important;
+     }
+
+     
+     .card-3 {
+        height: fit-content !important;
+        margin-bottom: 40px;
+        margin-top: 0px !important;
+      }
+
+      .card-3:hover {
+        margin-top: 0px !important;
+      }
+
+      .ticket {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .ticket-1 {
+        width: 330px !important;
+    }
+
+    .buttn-2 {
+        margin-top: 40px !important;
+    }
+
+    .inner-t-1 {
+        padding-left: 1rem  !important;
+    }
+
+
+
+    .ticket-3 {
+        width: 355px !important;
+        margin-top: 20px !important;
+    }
+
+    .footer-end-p {
+        margin-left: 53px !important;
+    }
+}
+
+@media only screen and (max-width:856px) {
+    .b-back {
+        width: 95% !important;
+
+    }
+
+    .card-tex-2 {
+        margin-left: 0px !important;
+       width: 100% !important;
+    }
+
+    .card-tex {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width:825px) {
+    .b-back {
+        width: 100% !important;
+        transform: translateY(-132px) !important;
+        background: rgb(35, 39, 39) !important;
+        opacity: 1 !important;
+    }
+
+    .para {
+        width: 85% !important;
+    }
+}
+
+@media only screen and (max-width:816px) {
+    .p3, .p7, .p11 {
+    display: none !important;
+    }
+
+    .para {
+    width: 75% !important;
+    }
+
+    .card {
+    width: 50% !important;
+    }
+
+    .card-3 {
+        width: 350px !important;
+    }
+
+    .card-2 {
+        width: 350px !important;
+    }
+}
+
+
+@media only screen and (max-width:759px) {
+
+    .img-2 {
+        margin-left: 30px;
+    }
+    .right p {
+        width: 90% !important;
+        display: block !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+
+    .card-tex-2 {
+        margin-left: 0px !important;
+       width: 100% !important;
+    }
+
+    .card-tex {
+        width: 100% !important;
+    }
+
+    .border {
+        height: 100px;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    .para {
+        width: 100% !important;
+    }
+
+    .para-2 {
+        font-size: 15px !important;
+    }
+
+    .br-1 {
+        display: none;
+    }
+
+    .para-6 {
+        width: 95% !important;
+    }
+
+    .para-4 {
+        width: 65% !important;
+    }
+
+    .footer-end-p {
+        margin-left: 0px ;
+        text-align: center;
+    }
+
+    .card {
+        height: fit-content !important;
+    }
+
+    .card-3 {
+        width: 60% !important;
+        margin-left: 0px !important;
+    }
+
+    
+    .card-2 {
+        width: 60% !important;
+        margin-left: 0px !important;
+    }
+} 
+
+@media only screen and (max-width:597px) {
+    .border {
+        margin-left: 25px !important;
+    }
+
+    
+    h1 {
+        width: 80% !important;
+    }
+
+    .img-2 {
+        margin-left: 0px !important;
+    }
+
+    .card {
+        width: 70% !important;
+    }
+
+    .para-4 {
+        width: 74% !important;
+    }
+}
+
+@media only screen and (max-width:538px) {
+    .p1, .p5 , .p9 {
+        margin-bottom: 40px !important;
+    }
+
+    .footer-end-p {
+        margin-left: 10px !important;
+    }
+
+    .border-2 {
+        width: 100% !important;
+    }
+
+    h6 {
+        width: 80%;
+        margin-left: 40px !important;
+    }
+
+    .swiper-button-next {
+        margin-top: 30px !important;
+    }
+
+    .swiper-button-prev{
+        margin-top: 30px !important;
+
+    }
+
+    .ic-ul {
+        padding: 0px !important;
+    }
+}
+
+@media only screen and (max-width:517px) {
+    .b-color {
+        width: 100% !important;
+    }
+
+    .para-3 {
+        font-size: 20px !important;
+    }
+
+    .card {
+        width: 80% !important;
+    }
+
+    .para-4 {
+        width: 90% !important;
+    }
+
+    h3 {
+        width: 90% !important;
+    }
+
+    .para-6 {
+        text-align: justify !important;
+    }
+
+    .para-2 {
+        text-align: justify !important;
+    }
+
+    h1 {
+        width: 100% !important;
+    }
+
+    .b-back {
+        display: flex;
+        flex-direction: column;
+        border-radius: 1px !important;
+    }
+
+    .border {
+        display: none;
+    }
+
+    .left {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .para-2{
+    line-height: 24px !important;
+    }
+
+    .ic-ul {
+        padding: 0px !important;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    .ol {
+        padding: 6px !important;
+    }
+
+    .card {
+        width: 90% !important;
+    }
+
+    .para-3 {
+        font-size: 18px !important;
+    }
+
+    .card-3 {
+        width: 80% !important;
+       
+    }
+
+    .card-2 {
+        width: 80% !important;
+       
+    }
+
+    .card-tex-2 {
+        margin-left: 0px !important;
+       width: 100% !important;
+    }
+
+    .card {
+        width:100% !important;
+    }
+
+    .card-tex {
+        width: 100% !important;
+    }
+}
